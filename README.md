@@ -1,6 +1,6 @@
 # Jumia Web Scraper
 
-This project is a web scraping tool that extracts Flash Sales(Live Now) product information from the Jumia Online Shop (Kenya). The scraper collects details like product names, prices, stock availability, ratings, and images. The data is then stored in a CSV file and can be analyzed using Jupyter Notebooks.
+This project is a web scraping tool that extracts the Flash Sales (Live Now) product section information from the Jumia Online Shop (Kenya). The scraper collects details like product names, prices, stock availability, ratings, and images. The data is then stored in a CSV file and can be analyzed using Jupyter Notebooks.
 
 ## Project Structure
 
@@ -37,7 +37,7 @@ Jumia Web Scraper/
 
    **Key functionalities:**
    - Scrapes multiple pages of products.
-   - Collects data such as product name, price, discount, rating, and stock availability.
+   - Iterates through product pages to collect data such as product name, price, discount, rating, and stock availability.
    - Saves the extracted data to a CSV file (`jumia_products.csv`).
 
 ### 3. **jumia_products.csv**
@@ -58,7 +58,7 @@ Jumia Web Scraper/
    - Summary statistics
    - Visualizations (e.g., bar charts, histograms) of product prices, ratings, and stock availability.
    - Insights into the most popular products, best discounts, and other trends.
-     ***Data analysis is still ongoing...***
+   - ***N/B: Data analysis is still ongoing...***
 
 ## Getting Started
 
@@ -106,4 +106,6 @@ After gathering the data, it can be analyzed using the `Jumia Data Analysis.ipyn
 ## Disclaimer
 
 This project was developed in accordance with ethical guidelines. The scraping process follows responsible web scraping practices, ensuring that the Jumia website's terms of service are respected. The collected data is intended for educational and analytical purposes only. The use of this data should align with ethical principles, including transparency, respect for privacy, and compliance with applicable laws and regulations. The scraping script is designed to minimize server load and avoid disrupting normal website operations.
+
+## Enjoy!
 
