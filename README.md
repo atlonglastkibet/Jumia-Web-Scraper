@@ -103,22 +103,7 @@ The Jumia Web Scraper is a simple yet powerful tool to collect product data from
 
 After gathering the data, it can be analyzed using the `Jumia Data Analysis.ipynb` notebook, which provides valuable insights and visualizations to help understand trends in the Jumia marketplace.
 
-## License
+## Disclaimer
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project was developed in accordance with ethical guidelines. The scraping process follows responsible web scraping practices, ensuring that the Jumia website's terms of service are respected. The collected data is intended for educational and analytical purposes only. The use of this data should align with ethical principles, including transparency, respect for privacy, and compliance with applicable laws and regulations. The scraping script is designed to minimize server load and avoid disrupting normal website operations.
 
----
-
-### Adding the README file to your repository
-
-1. Create a file named `README.md` in your project folder.
-2. Paste the above content into the file and save it.
-3. Commit and push the `README.md` file to your GitHub repository:
-
-```bash
-git add README.md
-git commit -m "Add README file"
-git push origin main
-```
-
-This `README.md` file will provide your repository visitors with all the necessary information to understand, set up, and use your Jumia Web Scraper project.
